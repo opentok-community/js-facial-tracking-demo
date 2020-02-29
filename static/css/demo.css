@@ -1,0 +1,23 @@
+body,
+html {
+  height: 100%;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#publisher {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
+
+#publisher canvas {
+  text-align: center;
+  height: 98%;
+  padding: 6px 0 0 6px !important;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "video-azure-sentiment",
+  "version": "1.0.0",
+  "description": "This sample application can be used to create an OpenTok video session with multiple participants. Each\r participant will display in a different panel. Any participant can click the \"Analyze\" button to submit\r the other participants to the Azure Face API to determine their sentiment. Once Face API returns the request\r an emoji will be added to the participants video panel denoting their sentiment.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opentok-community/video-azure-sentiment.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/opentok-community/video-azure-sentiment/issues"
+  },
+  "homepage": "https://github.com/opentok-community/video-azure-sentiment#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
